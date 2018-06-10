@@ -1,0 +1,17 @@
+{
+  "name": "yummy-icons",
+  "version": "0.1.0",
+  "description": "Free yummy food font icons",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "roalcantara/yummy-icons"
+  },
+  "keywords": [
+    "icon",
+    "icons",
+    "web-font"
+  ],
+  "author": "Rogério R. Alcântara <rogerio.alcantara@gmail.com> (http://github.com/roalcantara)",
+  "license": "CC-BY-SA-4.0"
+}
