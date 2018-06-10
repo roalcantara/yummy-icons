@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Free yummy food font icons",
   "main": "index.js",
+  "scripts": {
+    "commitmsg": "commitlint -E GIT_PARAMS --config ./.commitlintrc.yml"
+  },
   "repository": {
     "type": "git",
     "url": "roalcantara/yummy-icons"
@@ -13,5 +16,10 @@
     "web-font"
   ],
   "author": "Rogério R. Alcântara <rogerio.alcantara@gmail.com> (http://github.com/roalcantara)",
-  "license": "CC-BY-SA-4.0"
+  "license": "CC-BY-SA-4.0",
+  "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
+    "husky": "^0.14.3"
+  }
 }
