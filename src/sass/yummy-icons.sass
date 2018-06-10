@@ -1,0 +1,1214 @@
+@import 'variables'
+@import 'fonts.mixin'
+@import 'yummy-icons.font'
+
+
+.#{$yummy-icon-selector}
+  // Better Font Rendering
+  @include font-smoothing
+  content: attr(data-icon)
+  font-family: 'YummyIcons' !important
+  font-style: normal !important
+  font-variant: normal !important
+  font-weight: normal !important
+  line-height: 1
+  speak: none
+  text-transform: none !important
+
+  &.#{$yummy-icon-slug}
+    &-001
+      &::before
+        content: 'a'
+
+    &-014
+      &::before
+        content: 'b'
+
+    &-027
+      &::before
+        content: 'c'
+
+    &-040
+      &::before
+        content: 'd'
+
+    &-041
+      &::before
+        content: 'e'
+
+    &-028
+      &::before
+        content: 'f'
+
+    &-015
+      &::before
+        content: 'g'
+
+    &-002
+      &::before
+        content: 'h'
+
+    &-003
+      &::before
+        content: 'i'
+
+    &-016
+      &::before
+        content: 'j'
+
+    &-029
+      &::before
+        content: 'k'
+
+    &-042
+      &::before
+        content: 'l'
+
+    &-043
+      &::before
+        content: 'm'
+
+    &-030
+      &::before
+        content: 'n'
+
+    &-017
+      &::before
+        content: 'o'
+
+    &-004
+      &::before
+        content: 'p'
+
+    &-005
+      &::before
+        content: 'q'
+
+    &-018
+      &::before
+        content: 'r'
+
+    &-031
+      &::before
+        content: 's'
+
+    &-044
+      &::before
+        content: 't'
+
+    &-045
+      &::before
+        content: 'u'
+
+    &-032
+      &::before
+        content: 'v'
+
+    &-019
+      &::before
+        content: 'w'
+
+    &-006
+      &::before
+        content: 'x'
+
+    &-007
+      &::before
+        content: 'y'
+
+    &-020
+      &::before
+        content: 'z'
+
+    &-033
+      &::before
+        content: 'A'
+
+    &-046
+      &::before
+        content: 'B'
+
+    &-047
+      &::before
+        content: 'C'
+
+    &-034
+      &::before
+        content: 'D'
+
+    &-021
+      &::before
+        content: 'E'
+
+    &-008
+      &::before
+        content: 'F'
+
+    &-009
+      &::before
+        content: 'G'
+
+    &-022
+      &::before
+        content: 'H'
+
+    &-035
+      &::before
+        content: 'I'
+
+    &-048
+      &::before
+        content: 'J'
+
+    &-049
+      &::before
+        content: 'K'
+
+    &-036
+      &::before
+        content: 'L'
+
+    &-023
+      &::before
+        content: 'M'
+
+    &-010
+      &::before
+        content: 'N'
+
+    &-011
+      &::before
+        content: 'O'
+
+    &-024
+      &::before
+        content: 'P'
+
+    &-037
+      &::before
+        content: 'Q'
+
+    &-050
+      &::before
+        content: 'R'
+
+    &-051
+      &::before
+        content: 'S'
+
+    &-038
+      &::before
+        content: 'T'
+
+    &-025
+      &::before
+        content: 'U'
+
+    &-012
+      &::before
+        content: 'V'
+
+    &-013
+      &::before
+        content: 'W'
+
+    &-026
+      &::before
+        content: 'X'
+
+    &-039
+      &::before
+        content: 'Y'
+
+    &-052
+      &::before
+        content: 'Z'
+
+    &-065
+      &::before
+        content: '0'
+
+    &-078
+      &::before
+        content: '1'
+
+    &-091
+      &::before
+        content: '2'
+
+    &-104
+      &::before
+        content: '3'
+
+    &-103
+      &::before
+        content: '4'
+
+    &-090
+      &::before
+        content: '5'
+
+    &-077
+      &::before
+        content: '6'
+
+    &-064
+      &::before
+        content: '7'
+
+    &-063
+      &::before
+        content: '8'
+
+    &-076
+      &::before
+        content: '9'
+
+    &-089
+      &::before
+        content: '!'
+
+    &-102
+      &::before
+        // sass-lint:disable quotes
+        content: "'"
+
+    &-101
+      &::before
+        content: '#'
+
+    &-088
+      &::before
+        content: '$'
+
+    &-075
+      &::before
+        content: '%'
+
+    &-062
+      &::before
+        content: '&'
+
+    &-074
+      &::before
+        content: '('
+
+    &-087
+      &::before
+        content: ')'
+
+    &-100
+      &::before
+        content: '*'
+
+    &-099
+      &::before
+        content: '+'
+
+    &-086
+      &::before
+        content: ','
+
+    &-073
+      &::before
+        content: '-'
+
+    &-060
+      &::before
+        content: '.'
+
+    &-059
+      &::before
+        content: '/'
+
+    &-072
+      &::before
+        content: ':'
+
+    &-085
+      &::before
+        content: ';'
+
+    &-098
+      &::before
+        content: '<'
+
+    &-097
+      &::before
+        content: '='
+
+    &-084
+      &::before
+        content: '>'
+
+    &-071
+      &::before
+        content: '?'
+
+    &-058
+      &::before
+        content: '@'
+
+    &-057
+      &::before
+        content: '['
+
+    &-070
+      &::before
+        content: ']'
+
+    &-083
+      &::before
+        content: '^'
+
+    &-096
+      &::before
+        content: '_'
+
+    &-095
+      &::before
+        content: '`'
+
+    &-082
+      &::before
+        content: '{'
+
+    &-069
+      &::before
+        content: '|'
+
+    &-056
+      &::before
+        content: '}'
+
+    &-055
+      &::before
+        content: '~'
+
+    &-068
+      &::before
+        content: '\\'
+
+    &-081
+      &::before
+        content: '\e000'
+
+    &-094
+      &::before
+        content: '\e001'
+
+    &-093
+      &::before
+        content: '\e002'
+
+    &-080
+      &::before
+        content: '\e003'
+
+    &-067
+      &::before
+        content: '\e004'
+
+    &-054
+      &::before
+        content: '\e005'
+
+    &-053
+      &::before
+        content: '\e006'
+
+    &-066
+      &::before
+        content: '\e007'
+
+    &-079
+      &::before
+        content: '\e008'
+
+    &-092
+      &::before
+        content: '\e009'
+
+    &-105
+      &::before
+        content: '\e00a'
+
+    &-118
+      &::before
+        content: '\e00b'
+
+    &-131
+      &::before
+        content: '\e00c'
+
+    &-144
+      &::before
+        content: '\e00d'
+
+    &-157
+      &::before
+        content: '\e00e'
+
+    &-170
+      &::before
+        content: '\e00f'
+
+    &-171
+      &::before
+        content: '\e010'
+
+    &-158
+      &::before
+        content: '\e011'
+
+    &-145
+      &::before
+        content: '\e012'
+
+    &-132
+      &::before
+        content: '\e013'
+
+    &-119
+      &::before
+        content: '\e014'
+
+    &-106
+      &::before
+        content: '\e015'
+
+    &-107
+      &::before
+        content: '\e016'
+
+    &-120
+      &::before
+        content: '\e017'
+
+    &-133
+      &::before
+        content: '\e018'
+
+    &-146
+      &::before
+        content: '\e019'
+
+    &-159
+      &::before
+        content: '\e01a'
+
+    &-172
+      &::before
+        content: '\e01b'
+
+    &-173
+      &::before
+        content: '\e01c'
+
+    &-160
+      &::before
+        content: '\e01d'
+
+    &-147
+      &::before
+        content: '\e01e'
+
+    &-134
+      &::before
+        content: '\e01f'
+
+    &-121
+      &::before
+        content: '\e020'
+
+    &-108
+      &::before
+        content: '\e021'
+
+    &-109
+      &::before
+        content: '\e022'
+
+    &-122
+      &::before
+        content: '\e023'
+
+    &-135
+      &::before
+        content: '\e024'
+
+    &-148
+      &::before
+        content: '\e025'
+
+    &-161
+      &::before
+        content: '\e026'
+
+    &-174
+      &::before
+        content: '\e027'
+
+    &-175
+      &::before
+        content: '\e028'
+
+    &-162
+      &::before
+        content: '\e029'
+
+    &-149
+      &::before
+        content: '\e02a'
+
+    &-136
+      &::before
+        content: '\e02b'
+
+    &-123
+      &::before
+        content: '\e02c'
+
+    &-110
+      &::before
+        content: '\e02d'
+
+    &-111
+      &::before
+        content: '\e02e'
+
+    &-124
+      &::before
+        content: '\e02f'
+
+    &-137
+      &::before
+        content: '\e030'
+
+    &-150
+      &::before
+        content: '\e031'
+
+    &-163
+      &::before
+        content: '\e032'
+
+    &-176
+      &::before
+        content: '\e033'
+
+    &-177
+      &::before
+        content: '\e034'
+
+    &-164
+      &::before
+        content: '\e035'
+
+    &-151
+      &::before
+        content: '\e036'
+
+    &-138
+      &::before
+        content: '\e037'
+
+    &-125
+      &::before
+        content: '\e038'
+
+    &-112
+      &::before
+        content: '\e039'
+
+    &-113
+      &::before
+        content: '\e03a'
+
+    &-126
+      &::before
+        content: '\e03b'
+
+    &-139
+      &::before
+        content: '\e03c'
+
+    &-152
+      &::before
+        content: '\e03d'
+
+    &-165
+      &::before
+        content: '\e03e'
+
+    &-178
+      &::before
+        content: '\e03f'
+
+    &-191
+      &::before
+        content: '\e040'
+
+    &-192
+      &::before
+        content: '\e041'
+
+    &-166
+      &::before
+        content: '\e042'
+
+    &-153
+      &::before
+        content: '\e043'
+
+    &-140
+      &::before
+        content: '\e044'
+
+    &-127
+      &::before
+        content: '\e045'
+
+    &-114
+      &::before
+        content: '\e046'
+
+    &-115
+      &::before
+        content: '\e047'
+
+    &-128
+      &::before
+        content: '\e048'
+
+    &-129
+      &::before
+        content: '\e049'
+
+    &-116
+      &::before
+        content: '\e04a'
+
+    &-117
+      &::before
+        content: '\e04b'
+
+    &-130
+      &::before
+        content: '\e04c'
+
+    &-143
+      &::before
+        content: '\e04d'
+
+    &-142
+      &::before
+        content: '\e04e'
+
+    &-141
+      &::before
+        content: '\e04f'
+
+    &-154
+      &::before
+        content: '\e050'
+
+    &-155
+      &::before
+        content: '\e051'
+
+    &-156
+      &::before
+        content: '\e052'
+
+    &-169
+      &::before
+        content: '\e053'
+
+    &-168
+      &::before
+        content: '\e054'
+
+    &-167
+      &::before
+        content: '\e055'
+
+    &-179
+      &::before
+        content: '\e056'
+
+    &-180
+      &::before
+        content: '\e057'
+
+    &-181
+      &::before
+        content: '\e058'
+
+    &-182
+      &::before
+        content: '\e059'
+
+    &-195
+      &::before
+        content: '\e05a'
+
+    &-194
+      &::before
+        content: '\e05b'
+
+    &-193
+      &::before
+        content: '\e05c'
+
+    &-190
+      &::before
+        content: '\e05d'
+
+    &-189
+      &::before
+        content: '\e05e'
+
+    &-188
+      &::before
+        content: '\e05f'
+
+    &-187
+      &::before
+        content: '\e060'
+
+    &-185
+      &::before
+        content: '\e061'
+
+    &-184
+      &::before
+        content: '\e062'
+
+    &-183
+      &::before
+        content: '\e063'
+
+    &-186
+      &::before
+        content: '\e064'
+
+    &-208
+      &::before
+        content: '\e065'
+
+    &-221
+      &::before
+        content: '\e066'
+
+    &-220
+      &::before
+        content: '\e067'
+
+    &-207
+      &::before
+        content: '\e068'
+
+    &-206
+      &::before
+        content: '\e069'
+
+    &-219
+      &::before
+        content: '\e06a'
+
+    &-205
+      &::before
+        content: '\e06b'
+
+    &-204
+      &::before
+        content: '\e06c'
+
+    &-217
+      &::before
+        content: '\e06d'
+
+    &-216
+      &::before
+        content: '\e06e'
+
+    &-203
+      &::before
+        content: '\e06f'
+
+    &-202
+      &::before
+        content: '\e070'
+
+    &-215
+      &::before
+        content: '\e071'
+
+    &-214
+      &::before
+        content: '\e072'
+
+    &-201
+      &::before
+        content: '\e073'
+
+    &-200
+      &::before
+        content: '\e074'
+
+    &-213
+      &::before
+        content: '\e075'
+
+    &-212
+      &::before
+        content: '\e076'
+
+    &-199
+      &::before
+        content: '\e077'
+
+    &-198
+      &::before
+        content: '\e078'
+
+    &-211
+      &::before
+        content: '\e079'
+
+    &-210
+      &::before
+        content: '\e07a'
+
+    &-197
+      &::before
+        content: '\e07b'
+
+    &-196
+      &::before
+        content: '\e07c'
+
+    &-209
+      &::before
+        content: '\e07d'
+
+    &-222
+      &::before
+        content: '\e07e'
+
+    &-235
+      &::before
+        content: '\e07f'
+
+    &-248
+      &::before
+        content: '\e080'
+
+    &-249
+      &::before
+        content: '\e081'
+
+    &-236
+      &::before
+        content: '\e082'
+
+    &-223
+      &::before
+        content: '\e083'
+
+    &-224
+      &::before
+        content: '\e084'
+
+    &-237
+      &::before
+        content: '\e085'
+
+    &-250
+      &::before
+        content: '\e086'
+
+    &-251
+      &::before
+        content: '\e087'
+
+    &-238
+      &::before
+        content: '\e088'
+
+    &-225
+      &::before
+        content: '\e089'
+
+    &-226
+      &::before
+        content: '\e08a'
+
+    &-239
+      &::before
+        content: '\e08b'
+
+    &-252
+      &::before
+        content: '\e08c'
+
+    &-253
+      &::before
+        content: '\e08d'
+
+    &-240
+      &::before
+        content: '\e08e'
+
+    &-227
+      &::before
+        content: '\e08f'
+
+    &-228
+      &::before
+        content: '\e090'
+
+    &-241
+      &::before
+        content: '\e091'
+
+    &-254
+      &::before
+        content: '\e092'
+
+    &-255
+      &::before
+        content: '\e093'
+
+    &-242
+      &::before
+        content: '\e094'
+
+    &-229
+      &::before
+        content: '\e095'
+
+    &-230
+      &::before
+        content: '\e096'
+
+    &-243
+      &::before
+        content: '\e097'
+
+    &-256
+      &::before
+        content: '\e098'
+
+    &-257
+      &::before
+        content: '\e099'
+
+    &-244
+      &::before
+        content: '\e09a'
+
+    &-231
+      &::before
+        content: '\e09b'
+
+    &-232
+      &::before
+        content: '\e09c'
+
+    &-245
+      &::before
+        content: '\e09d'
+
+    &-258
+      &::before
+        content: '\e09e'
+
+    &-218
+      &::before
+        content: '\e09f'
+
+    &-233
+      &::before
+        content: '\e0a0'
+
+    &-246
+      &::before
+        content: '\e0a1'
+
+    &-259
+      &::before
+        content: '\e0a2'
+
+    &-260
+      &::before
+        content: '\e0a3'
+
+    &-247
+      &::before
+        content: '\e0a4'
+
+    &-234
+      &::before
+        content: '\e0a5'
+
+    &-273
+      &::before
+        content: '\e0a6'
+
+    &-286
+      &::before
+        content: '\e0a7'
+
+    &-299
+      &::before
+        content: '\e0a8'
+
+    &-298
+      &::before
+        content: '\e0a9'
+
+    &-285
+      &::before
+        content: '\e0aa'
+
+    &-272
+      &::before
+        content: '\e0ab'
+
+    &-271
+      &::before
+        content: '\e0ac'
+
+    &-284
+      &::before
+        content: '\e0ad'
+
+    &-297
+      &::before
+        content: '\e0ae'
+
+    &-296
+      &::before
+        content: '\e0af'
+
+    &-283
+      &::before
+        content: '\e0b0'
+
+    &-270
+      &::before
+        content: '\e0b1'
+
+    &-269
+      &::before
+        content: '\e0b2'
+
+    &-282
+      &::before
+        content: '\e0b3'
+
+    &-295
+      &::before
+        content: '\e0b4'
+
+    &-294
+      &::before
+        content: '\e0b5'
+
+    &-281
+      &::before
+        content: '\e0b6'
+
+    &-268
+      &::before
+        content: '\e0b7'
+
+    &-267
+      &::before
+        content: '\e0b8'
+
+    &-280
+      &::before
+        content: '\e0b9'
+
+    &-293
+      &::before
+        content: '\e0ba'
+
+    &-292
+      &::before
+        content: '\e0bb'
+
+    &-279
+      &::before
+        content: '\e0bc'
+
+    &-266
+      &::before
+        content: '\e0bd'
+
+    &-265
+      &::before
+        content: '\e0be'
+
+    &-278
+      &::before
+        content: '\e0bf'
+
+    &-291
+      &::before
+        content: '\e0c0'
+
+    &-290
+      &::before
+        content: '\e0c1'
+
+    &-277
+      &::before
+        content: '\e0c2'
+
+    &-264
+      &::before
+        content: '\e0c3'
+
+    &-263
+      &::before
+        content: '\e0c4'
+
+    &-276
+      &::before
+        content: '\e0c5'
+
+    &-289
+      &::before
+        content: '\e0c6'
+
+    &-288
+      &::before
+        content: '\e0c7'
+
+    &-275
+      &::before
+        content: '\e0c8'
+
+    &-262
+      &::before
+        content: '\e0c9'
+
+    &-261
+      &::before
+        content: '\e0ca'
+
+    &-274
+      &::before
+        content: '\e0cb'
+
+    &-287
+      &::before
+        content: '\e0cc'
+
+    &-300
+      &::before
+        content: '\e0cd'
