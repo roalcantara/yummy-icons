@@ -41,13 +41,47 @@ The following variables are allowed to be set externally:
 | $yummy-icon-slug | Defines the icon selector | yi |
 | $yummy-icon-font-path | Defines the fonts' path | web-fonts |
 
-## Angular/Ionic Sass configuration
+## Sass configuration (Angular)
 
 On your `/src/app/app.scss` file, add:
 
 ```sass
 $yummy-icon-font-path: $font-path;
 @import 'yummy-icons';
+```
+
+## Ionic 3 configuration
+
+**1.** Add to `config/sass.config.js`:
+
+```js
+  ...
+    /**
+    * includePaths: Used by node-sass for additional
+    * paths to search for sass imports by just name.
+    */
+    includePaths: [
+      'node_modules/ionic-angular/themes',
+      'node_modules/ionicons/dist/scss',
+      'node_modules/ionic-angular/fonts',
+      'node_modules/yummy-icons/src/sass' //add this line..
+    ],
+  ...
+```
+
+**2.** Add to `config/copy.config.js`:
+
+```js
+  ...
+    copyFonts: {
+      src: [
+        '{{ROOT}}/node_modules/ionicons/dist/fonts/**/*',
+        '{{ROOT}}/node_modules/ionic-angular/fonts/**/*',
+        '{{ROOT}}/node_modules/yummy-icons/dist/web-fonts/**/*' //and this!
+      ],
+      dest: '{{WWW}}/assets/fonts',
+    },
+  ...
 ```
 
 ## How to contribute
