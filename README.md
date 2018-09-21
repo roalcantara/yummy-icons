@@ -9,8 +9,8 @@ A npm package with the **Yummy Icon**.
 **1.** Add the library to your project
 
 ```sh
-npm i yummy-icon
-yarn add yummy-icon
+npm i yummy-icons
+yarn add yummy-icons
 ```
 
 **2.** Reference the fonts on the HTML's head
@@ -46,8 +46,8 @@ The following variables are allowed to be set externally:
 On your `/src/app/app.scss` file, add:
 
 ```sass
-$yummy-icon-font-path: $font-path;
-@import 'yummy-icons';
+$yummy-icon-font-path: '~yummy-icons/dist/web-fonts' !default;
+@import '~yummy-icons/src/sass/yummy-icons';
 ```
 
 ## Ionic 3 configuration
