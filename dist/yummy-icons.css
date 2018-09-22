@@ -2,7 +2,7 @@
   font-family: 'YummyIcons';
   font-style: normal;
   font-weight: normal;
-  src: url("web-fonts/YummyIcons.eot"), url("web-fonts/YummyIcons.eot?#iefix") format("embedded-opentype"), url("web-fonts/YummyIcons.woff") format("woff"), url("web-fonts/YummyIcons.ttf") format("truetype"), url("web-fonts/YummyIcons.svg#YummyIcons") format("svg"); }
+  src: url("web-fonts/YummyIcons.oet"), url("web-fonts/YummyIcons.oet?#iefix") format("embedded-opentype"), url("web-fonts/YummyIcons.woff") format("woff"), url("web-fonts/YummyIcons.ttf") format("truetype"), url("web-fonts/YummyIcons.svg#YummyIcons") format("svg"); }
 
 .yummy-icon {
   -moz-osx-font-smoothing: grayscale;
