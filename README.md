@@ -1,5 +1,7 @@
 # Yummy Icons
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/roalcantara/yummy-icons.svg)](https://greenkeeper.io/)
+
 A npm package with the **Yummy Icon**.
 
 ![npm](https://img.shields.io/npm/v/npm.svg)
