@@ -48,6 +48,7 @@
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.2",
     "husky": "^3.0.5",
+    "lint-staged": "^9.2.5",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
     "pug": "^2.0.4",
@@ -58,7 +59,18 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS --config ./.commitlintrc.yml"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS --config ./.commitlintrc.yml",
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.*": [
+      "yarn pretty-quick --staged",
+      "git add"
+    ],
+    "*.{css,scss}": [
+      "yarn sass-lint",
+      "git add"
+    ]
   }
 }
