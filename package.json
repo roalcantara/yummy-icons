@@ -9,9 +9,10 @@
   "main": "index.js",
   "scripts": {
     "typescript": "./node_modules/.bin/typescript",
+    "tslint": "./node_modules/.bin/tslint",
     "lint:saas": "./node_modules/.bin/sass-lint -c ./.sass-lint.yml --verbose --no-exit",
-    "lint": "yarn lint:saas",
-    "build" : "tsc",
+    "lint": "yarn lint:saas && yarn tslint -p tsconfig.json",
+    "build": "tsc",
     "version:current": "echo $npm_package_version",
     "version:commit": "git commit -am \"chore(release): Bump version to $(npm run version:current --silent)\"",
     "version:major": "npm --no-git-tag-version version major && yarn version:commit",
@@ -44,6 +45,7 @@
     "husky": "^3.0.5",
     "pug": "^2.0.4",
     "sass-lint": "^1.13.1",
+    "tslint": "^5.19.0",
     "typescript": "^3.6.2"
   },
   "husky": {
