@@ -11,8 +11,10 @@
     "typescript": "./node_modules/.bin/typescript",
     "prettier": "./node_modules/.bin/prettier",
     "tslint": "./node_modules/.bin/tslint",
+    "tslint:prettier": "./node_modules/.bin/tslint-config-prettier-check",
     "lint:saas": "./node_modules/.bin/sass-lint -c ./.sass-lint.yml --verbose --no-exit",
     "format:write": "yarn prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint:check": "yarn tslint:prettier ./tslint.yml",
     "lint": "yarn lint:saas && yarn tslint -p tsconfig.json",
     "build": "tsc",
     "version:current": "echo $npm_package_version",
@@ -49,6 +51,7 @@
     "pug": "^2.0.4",
     "sass-lint": "^1.13.1",
     "tslint": "^5.19.0",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.6.2"
   },
   "husky": {
